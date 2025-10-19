@@ -1,9 +1,79 @@
 body {
     /* background: linear-gradient(to top, #896E3D 10%, #EEE9DE 100%); */
-    background: #FDFBF5;
+    background: #f3f3f3;
     min-height: 100vh;
     margin: 0;
     padding: 2vw;
     font-family: 'PT Root UI', sans-serif;
     overflow-x: hidden;
 }
+
+.screen1_1_plashka {
+  width: 100vw;
+  height: 5vw;
+}
+
+#boxed {
+  width: 70vw;
+  height: 3.6vw;
+  left: 15vw;
+  top: 1vw;
+  padding-top: 0.5vw;
+  background-color: #0d0925;
+  border-radius: 0.35vw;
+}
+
+/* Навигация */
+.logo {
+    width: 4vw;
+    margin-top: -1.7vw;
+}
+
+.boxed {
+  left: 22vw;
+  margin-top: 0.2vw;
+}
+
+nav {
+    position: fixed;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    border-radius: 0.5vw;
+    overflow: hidden;
+}
+    
+nav li {
+    flex: 1;
+    white-space: nowrap;
+}
+    
+nav a {
+    display: block;
+    padding: 1vw 1.7vw;
+    font-family: PragmaticaBlack;
+    font-size: 1.1vw;
+    font-style: blackbe;
+    background: #f3f3f3;
+    color: #0d0925;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+nav a img {
+  display: block;
+  padding: 1vw 1.7vw;
+  background: #0d0925;
+}
+    
+/* nav a[href="index.html"], 
+nav a[href="../index.html"]
+{
+    background: #0d0925;
+    font-style: bold;
+} */
