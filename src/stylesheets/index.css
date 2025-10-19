@@ -1,0 +1,9 @@
+body {
+    /* background: linear-gradient(to top, #896E3D 10%, #EEE9DE 100%); */
+    background: #FDFBF5;
+    min-height: 100vh;
+    margin: 0;
+    padding: 2vw;
+    font-family: 'PT Root UI', sans-serif;
+    overflow-x: hidden;
+}
